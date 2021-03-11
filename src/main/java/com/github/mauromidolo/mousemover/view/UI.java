@@ -20,7 +20,7 @@ public class UI {
      */
     public static void main(String[] args)  {
         JFrame frame = new JFrame();
-        frame.setTitle("Mover");
+        frame.setTitle("Mouse Mover");
         try {
             frame.setIconImage(ImageIO.read(ClassLoader.getSystemResource( "cursor.png" )));
         } catch (IOException ignored) {}
