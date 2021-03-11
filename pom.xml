@@ -41,4 +41,27 @@
         </plugins>
     </build>
 
+    <name>MouseMover</name>
+    <description>MouseMover is a tool to move the mouse automatically</description>
+    <url>https://github.com/mauro-midolo/MouseMover</url>
+    <inceptionYear>2021</inceptionYear>
+    <contributors>
+        <contributor>
+            <name>Mauro Midolo</name>
+        </contributor>
+    </contributors>
+    <developers>
+        <developer>
+            <name>Mauro Midolo</name>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+        </license>
+    </licenses>
+    <issueManagement>
+        <url>https://github.com/mauro-midolo/MouseMover/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
 </project>
