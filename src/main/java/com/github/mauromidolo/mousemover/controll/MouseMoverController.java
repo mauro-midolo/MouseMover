@@ -1,7 +1,7 @@
 package com.github.mauromidolo.mousemover.controll;
 
 /**
- * MouseMoverController: controller to manager MouseMoverManager thread
+ * MouseMoverController: controller to manager MouseMoverManager background job
  */
 public class MouseMoverController {
 
