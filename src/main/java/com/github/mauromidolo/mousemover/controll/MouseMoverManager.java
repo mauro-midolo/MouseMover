@@ -3,20 +3,34 @@ package com.github.mauromidolo.mousemover.controll;
 import java.awt.*;
 import java.util.Random;
 
+/**
+ * MouseMoverManager: Runnable to move mouse automatically
+ */
 public class MouseMoverManager implements Runnable {
     private final int seconds;
     private boolean run;
-
-    public MouseMoverManager(int seconds) {
+    /**
+     * Construct
+     *
+     * @param seconds number of seconds to move mouse
+     */
+    protected MouseMoverManager(int seconds) {
         this.seconds = seconds;
         run = true;
     }
-    public void start() {
+
+    /**
+     * start the Runnable
+     */
+    protected void start() {
         Thread worker = new Thread(this);
         worker.start();
     }
 
-    public void stop() {
+    /**
+     * stop the Runnable
+     */
+    protected void stop() {
         run = false;
     }
 

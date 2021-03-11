@@ -9,13 +9,21 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.io.IOException;
 
-
+/**
+ * Entry class, it's necessary to create the user interface
+ */
 public class UI {
-
-    public static void main(String[] args) throws IOException {
+    /**
+     * Main Class
+     *
+     * @param  args  not used
+     */
+    public static void main(String[] args)  {
         JFrame frame = new JFrame();
         frame.setTitle("Mover");
-        frame.setIconImage(ImageIO.read(ClassLoader.getSystemResource( "cursor.png" )));
+        try {
+            frame.setIconImage(ImageIO.read(ClassLoader.getSystemResource( "cursor.png" )));
+        } catch (IOException ignored) {}
 
         JPanel mainPanel = new JPanel();
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
