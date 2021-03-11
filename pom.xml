@@ -41,6 +41,24 @@
         </plugins>
     </build>
 
+    <scm>
+        <connection>scm:git:https://github.com/mauro-midolo/MouseMover.git</connection>
+        <developerConnection>scm:git:git@github.com:mauro-midolo/MouseMover.git</developerConnection>
+        <url>https://github.com/mauro-midolo/MouseMover</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+
     <name>MouseMover</name>
     <description>MouseMover is a tool to move the mouse automatically</description>
     <url>https://github.com/mauro-midolo/MouseMover</url>
