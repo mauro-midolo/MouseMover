@@ -4,7 +4,7 @@
 
     <groupId>com.github.mauro-midolo</groupId>
     <artifactId>MouseMover</artifactId>
-    <version>1.4-SNAPSHOT</version>
+    <version>1.4.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
