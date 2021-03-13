@@ -145,8 +145,8 @@
         </repository>
     </distributionManagement>
 
-    <name>MouseMover</name>
-    <description>MouseMover is a tool to move the mouse automatically</description>
+    <name>Mouse Mover</name>
+    <description>Mouse Mover is a tool that moves the mouse automatically every few seconds</description>
     <url>https://github.com/mauro-midolo/MouseMover</url>
     <inceptionYear>2021</inceptionYear>
     <contributors>
